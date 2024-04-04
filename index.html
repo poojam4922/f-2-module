@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>New Employees</h1>
+      <div class="employee-container">
+        <form class="form">
+          <div class="form-wrapper">
+            <span class="form-field">
+              <lable>Enter Name</lable>
+              <input type="text" class="name" />
+            </span>
+            <span class="form-field">
+              <lable>Enter Profession</lable>
+              <input type="text" class="profession" />
+            </span>
+            <span class="form-field">
+              <lable>Enter Age</lable>
+              <input type="number" class="age" />
+            </span>
+          </div>
+          <button type="submit" class="form-submit">Add User</button>
+          <div class="error-wrapper">
+            <span class="errorMessage"></span>
+            <span class="successMessage"></span>
+          </div>
+        </form>
+        <!-- *************** mapping the added user here  ****************** -->
+
+        <div class="addedEmployee-wrapper">
+          <h2>Added Employees</h2>
+          <div class="addedEmployee">
+            You have 0 Employees.
+            <!-- <span class="employee-data">
+              <p>id</p>
+              <p>Name :John</p>
+              <p>Profession : Developer</p>
+              <p>Age : 25</p>
+            </span>
+            <span class="employee-delete"><button>Delete User</button></span> -->
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
